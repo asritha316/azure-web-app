@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cart - Designify</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">Designify</div>
+    <input type="text" placeholder="Search designs..." id="searchBar" />
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="designs.html">Designs</a></li>
+      <li><a href="cart.html">Cart (<span id="cart-count">0</span>)</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><button id="signInBtn">Sign In</button></li>
+    </ul>
+  </nav>
+
+  <section>
+    <h2>Your Cart</h2>
+    <div id="cartContainer">
+      <ul id="cartItems"></ul>
+      <h3 id="totalCost">Total: ₹0</h3>
+    </div>
+  </section>
+</body>
+</html>
+
